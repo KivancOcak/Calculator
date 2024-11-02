@@ -1,4 +1,4 @@
-/* Body with Black Background */
+
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* Calculator Styling */
+
 .calculator {
     width: 400px;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
     background-color: #fff;  /* White calculator */
 }
 
-/* Display Screen with Gray Background */
+
 #display {
     width: 100%;
     height: 60px;
@@ -31,14 +31,14 @@ body {
     color: #000;  /* Black text */
 }
 
-/* Grid Layout for Buttons */
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-/* Buttons with Yellow Color */
+
 button {
     width: 100%;
     height: 60px;
@@ -50,11 +50,11 @@ button {
     transition: background-color 0.2s;
 }
 
-/* Button Hover and Active Effects */
+
 button:hover {
-    background-color: #ffc107;  /* Slightly darker yellow on hover */
+    background-color: #ffc107; 
 }
 
 button:active {
-    background-color: #ffb300;  /* Even darker yellow when clicked */
+    background-color: #ffb300; 
 }
